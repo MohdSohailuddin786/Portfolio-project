@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4b0c36681a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1>MOHD SOHAILUDDIN</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Java Developer</p>
+          <h1>Hi, I'm <span>MOHD SOHAILUDDIN</span><br />From Hyderabad</h1>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------------------------about------------------------------------------------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./IMG_20230320_182503.jpg" class="about-logo" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My name is Sohail, and I am from the IT department, currently
+              pursuing a B.Tech at Mallareddy Engineering College. Here is a
+              short information about me.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Java Development</span><br />Core Java/OOPS</li>
+                <li><span>Web Development</span><br />Html/CSS/JavaScript</li>
+                <li>
+                  <span>UI/UX Designing</span><br />Designing Web/App interfaces
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>Java Development</span><br />Core Java/OOPS</li>
+                <li><span>Web Development</span><br />Html/CSS/JavaScript</li>
+                <li>
+                  <span>UI/UX Designing</span><br />Designing Web/App interfaces
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2021-2025</span><br />Malla Reddy Engineering College,
+                  Hyderabad
+                </li>
+                <li>
+                  <span>2019-2021</span><br />Sri Gayatri Junior College ,
+                  Hyderabad
+                </li>
+                <li>
+                  <span>2009-2019</span><br />St. Joseph’s Grammar High School,
+                  Hyderabad
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------------------SERVICES---------------------------------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Java Development</h2>
+            <p>
+              Java development involves the process of building software
+              applications using the Java programming language. It is a
+              widely-used, object-oriented language known for its portability,
+              performance, and security. Java developers create a range of
+              applications, from mobile apps (Android) and web applications to
+              enterprise-level solutions.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Web development is the process of creating and maintaining
+              websites and web applications. It involves a mix of coding,
+              design, and content management to build everything from simple
+              static websites to complex, interactive platforms. Web developers
+              use languages like HTML, CSS, JavaScript, and back-end
+              technologies such as PHP, Ruby, or Node.js to create
+              user-friendly, functional websites.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Designing</h2>
+            <p>
+              UI/UX designing focuses on creating user-friendly and visually
+              appealing interfaces for websites and applications. It involves
+              understanding user behavior, conducting research, and applying
+              design principles to enhance the overall user experience. UI/UX
+              designers use tools like Adobe XD, Sketch, and Figma to create
+              wireframes, prototypes, and high-fidelity designs.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------------------------------------------portfolio------------------------------------------------>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./java kit.webp" />
+            <div class="layer">
+              <h3>Dine-in Static Website</h3>
+              <p>
+                This is a static website for a restaurant, which includes HTML,
+                CSS and JavaScript. It is a responsive website that works on all
+                devices.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://wealthtechtoday.com/wp-content/uploads/2025/03/iStock-Pointer-Finger-AI-1024x576.jpg"
+              style="width: 100%; height: 100%; margin: 0 auto"
+            />
+            <div class="layer">
+              <h3>Students Performance Prediction</h3>
+              <p>Done with the help of Python and Machine Learninig.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <!-- <div class="work">
+            <img src="./UI-UX.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from playstore.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div> -->
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!----------------------------------------------------CONTACT--------------------------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              >mohdsohailuddin513@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>9059948722</p>
+            <div class="social-icons">
+              <a href="https://github.com/"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://linkedin.com/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+            </div>
+            <a href="images/updated resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright @Sohail. Made with <i class="fa-solid fa-heart"></i> by Easy
+          Tutorials
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
